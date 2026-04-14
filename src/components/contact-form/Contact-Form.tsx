@@ -46,7 +46,7 @@ const ContactForm = () => {
   };
   return (
     <Dialog open={openModal} onOpenChange={setOpenModal}>
-      <DialogTrigger asChild>
+      <DialogTrigger>
         <Button variant="default" className="cursor-pointer">
           <Send />
           Get in touch

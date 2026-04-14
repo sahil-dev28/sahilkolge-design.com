@@ -15,7 +15,7 @@ function Footer() {
       </div>
 
       <div className="screen-line-top screen-line-bottom flex w-full before:z-1 after:z-1">
-        <div className="mx-auto flex items-center justify-center gap-3 border border-line px-4 py-1">
+        <div className="mx-auto flex items-center justify-center gap-3 border border-line px-4 py-">
           <a
             className="flex items-center text-muted-foreground transition-[color] hover:text-foreground"
             href="https://x.com/iamncdai?utm_source=chanhdai.com"
@@ -28,7 +28,7 @@ function Footer() {
           <Separator orientation="vertical" />
           <a
             className="flex items-center text-muted-foreground transition-[color] hover:text-foreground"
-            href="https://github.com/sahil-dev28/sahilkolge-design.com"
+            href="https://github.com/sahil-dev28"
             target="_blank"
             rel="noopener"
           >

@@ -11,8 +11,8 @@ function Footer() {
         </p>
         <p className="text-center tex-sm md:text-left xl:text-md px-2 md:px-0">
           Inspired by tailwindcss.com & ui.shadcn.com. The source code is
-          available on
-          <span className="hover:underline">
+          available on{" "}
+          <span className="botder border-b border-foreground transition-[color] hover:text-foreground">
             <Link to="https://github.com/sahil-dev28/sahilkolge-design.com">
               GitHub.
             </Link>

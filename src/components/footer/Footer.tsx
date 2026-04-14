@@ -28,7 +28,7 @@ function Footer() {
           <Separator orientation="vertical" />
           <a
             className="flex items-center text-muted-foreground transition-[color] hover:text-foreground"
-            href="https://github.com/sahil-dev28"
+            href="https://github.com/sahil-dev28/sahilkolge-design.com"
             target="_blank"
             rel="noopener"
           >

@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { Icons } from "../ui/icons";
 import { Separator } from "../ui/separator";
 
@@ -10,7 +11,12 @@ function Footer() {
         </p>
         <p className="text-center tex-sm md:text-left xl:text-md px-2 md:px-0">
           Inspired by tailwindcss.com & ui.shadcn.com. The source code is
-          available on GitHub.
+          available on
+          <span className="hover:underline">
+            <Link to="https://github.com/sahil-dev28/sahilkolge-design.com">
+              GitHub.
+            </Link>
+          </span>
         </p>
       </div>
 

@@ -7,12 +7,13 @@ function Footer() {
     <footer className="mx-auto border-t border-border pt-10 pb-5 flex flex-col gap-3 w-full bg-card">
       <div className="p-3 lg:p-0 flex flex-col gap-1 text-xs text-muted-foreground max-w-3xl justify-center items-center mx-auto">
         <p>
-          Design & Developed by <b className="underline">SahilK</b>
+          Design & Developed by{" "}
+          <b className="border border-b-muted-foreground">SahilK</b>
         </p>
         <p className="text-center tex-sm md:text-left xl:text-md px-2 md:px-0">
           Inspired by tailwindcss.com & ui.shadcn.com. The source code is
           available on{" "}
-          <span className="border-b border-border transition-[color] hover:text-foreground">
+          <span className="border border-b-muted-foreground transition-[color] hover:text-foreground hover:border-b-foreground">
             <Link to="https://github.com/sahil-dev28/sahilkolge-design.com">
               GitHub.
             </Link>

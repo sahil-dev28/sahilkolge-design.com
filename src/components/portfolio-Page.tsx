@@ -103,7 +103,7 @@ export const PortfolioPage = () => {
           <Link
             onClick={(e) => {
               e.preventDefault();
-              openInNewTab("https://x.com/iamncdai?utm_source=chanhdai.com");
+              openInNewTab("https://x.com/sahilkolge28");
             }}
             to=""
             className="group flex cursor-pointer items-center border rounded-xl gap-4 p-4 pr-2 transition-[background-color] ease-out hover:bg-accent-muted max-sm:screen-line-before max-sm:screen-line-after sm:nth-[2n+1]:screen-line-before sm:nth-[2n+1]:screen-line-after"

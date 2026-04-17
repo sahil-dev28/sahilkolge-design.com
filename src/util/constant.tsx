@@ -113,29 +113,6 @@ export const Projects = [
     ],
   },
   {
-    redirectionLink: "https://meal-finder-ya95.vercel.app/",
-    name: "Meal Finder",
-    description:
-      "A modern web app for seamless seat booking with a clean UI and smooth user experience.",
-    projectImage: mealFinderImage,
-    year: "2025",
-    status: "Completed",
-    type: "Personal",
-    github: "https://github.com/sahil-dev28/Meal_finder",
-    stack: [
-      {
-        name: "JAVASCRIPT",
-        icon: javaScript,
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      },
-      {
-        name: "CSS",
-        icon: cssLogo,
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
-    ],
-  },
-  {
     redirectionLink: "https://movie-seat-booking-snowy.vercel.app/",
     name: "Movie Seat Booking",
     description:
@@ -158,6 +135,30 @@ export const Projects = [
       },
     ],
   },
+  {
+    redirectionLink: "https://meal-finder-ya95.vercel.app/",
+    name: "Meal Finder",
+    description:
+      "A modern web app for seamless seat booking with a clean UI and smooth user experience.",
+    projectImage: mealFinderImage,
+    year: "2025",
+    status: "Completed",
+    type: "Personal",
+    github: "https://github.com/sahil-dev28/Meal_finder",
+    stack: [
+      {
+        name: "JAVASCRIPT",
+        icon: javaScript,
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      },
+      {
+        name: "CSS",
+        icon: cssLogo,
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      },
+    ],
+  },
+
   {
     redirectionLink: "https://typing-game-jade-seven.vercel.app/",
     name: "Typing Game",

@@ -4,6 +4,7 @@ import mealFinderImage from "./../assets/meal-finder.png";
 import cssLogo from "./../assets/cssLogo.png";
 import urbanEstateImage from "./../assets/urbanEstate.png";
 import tailwindcss from "./../assets/tailwindcss.png";
+import ecommerceImage from "./../assets/E-commerce.png";
 
 const typeScript =
   "https://assets.chanhdai.com/images/tech-stack-icons/typescript.svg";
@@ -16,7 +17,7 @@ export const Projects = [
     name: "E-commerce Store",
     description:
       "A modern web app for browsing real-time news with a clean UI and smooth user experience.",
-    projectImage: urbanEstateImage,
+    projectImage: ecommerceImage,
     year: "2026",
     status: "Completed",
     type: "Personal",

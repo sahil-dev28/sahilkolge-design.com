@@ -1,17 +1,17 @@
 "use client";
 
-import { Navbar } from "./navbar/Navbar";
-import { Button } from "./ui/button";
+import { Navbar } from "../navbar/Navbar";
+import { Button } from "../ui/button";
 import { ScrollText } from "lucide-react";
-import StackLogo from "./stack-logos/Stack-Logo";
-import ContactForm from "./contact-form/Contact-Form";
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { ContainerTextFlip } from "./ui/container-text-flip";
+import StackLogo from "../stack-logos/Stack-Logo";
+import ContactForm from "../contact-form/Contact-Form";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
+import { ContainerTextFlip } from "../ui/container-text-flip";
 import profileImage from "./../assets/ProfileImage.png";
 import { Projects } from "@/util/constant";
-import { ProjectCard } from "./ui/projectCard";
+import { ProjectCard } from "../ui/projectCard";
 import { Link } from "react-router";
-import Footer from "./footer/Footer";
+import Footer from "../footer/Footer";
 
 const featuredProjects = Projects.slice(0, 4);
 

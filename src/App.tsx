@@ -1,4 +1,4 @@
-import { PortfolioPage } from "@/components/portfolio-Page";
+import { PortfolioPage } from "@/components/porfolio-page/Portfolio-Page";
 import { ThemeProvider } from "./components/ui/theme-provider";
 import { Toaster } from "./components/ui/sonner";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";

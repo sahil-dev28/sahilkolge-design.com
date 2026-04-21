@@ -7,7 +7,7 @@ import StackLogo from "../stack-logos/Stack-Logo";
 import ContactForm from "../contact-form/Contact-Form";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { ContainerTextFlip } from "../ui/container-text-flip";
-import profileImage from "./../assets/ProfileImage.png";
+import profileImage from "./../../assets/ProfileImage.png";
 import { Projects } from "@/util/constant";
 import { ProjectCard } from "../ui/projectCard";
 import { Link } from "react-router";

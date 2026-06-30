@@ -46,7 +46,7 @@ export const Projects = [
     ],
   },
   {
-    redirectionLink: "https://urban-estate-nine.vercel.app/",
+    redirectionLink: "https://urban-estate-sk28.vercel.app/",
     name: "Urban Real Estate",
     description:
       "A modern web app for browsing real-time news with a clean UI and smooth user experience.",

@@ -1,3 +1,4 @@
+
 "use client";
 
 import { Navbar } from "../navbar/Navbar";
@@ -203,6 +204,7 @@ export const PortfolioPage = () => {
             {featuredProjects.map((project) => {
               return (
                 <ProjectCard
+                  key={project.name}
                   name={project.name}
                   description={project.description}
                   projectImage={project.projectImage}

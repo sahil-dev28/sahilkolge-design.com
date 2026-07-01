@@ -227,6 +227,51 @@ export default function StackLogo() {
               <TooltipContent>React Hook Form</TooltipContent>
             </Tooltip>
           </li>
+          <li className="flex">
+            <Tooltip>
+              <TooltipTrigger>
+                <a
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openInNewTab("https://nodejs.org/");
+                  }}
+                >
+                  <img
+                    width="40"
+                    height="40"
+                    src="https://assets.chanhdai.com/images/tech-stack-icons/nodejs.svg"
+                  />
+                </a>
+              </TooltipTrigger>
+              <TooltipContent>Node.js</TooltipContent>
+            </Tooltip>
+          </li>
+          <li className="flex">
+            <Tooltip>
+              <TooltipTrigger>
+                <a
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openInNewTab("https://nextjs.org/");
+                  }}
+                >
+                  <img
+                    width="40"
+                    height="40"
+                    className="hidden [html.light_&]:block"
+                    src="https://cdn.simpleicons.org/nextdotjs/black"
+                  />
+                  <img
+                    width="40"
+                    height="40"
+                    className="hidden [html.dark_&]:block"
+                    src="https://cdn.simpleicons.org/nextdotjs/white"
+                  />
+                </a>
+              </TooltipTrigger>
+              <TooltipContent>Next.js</TooltipContent>
+            </Tooltip>
+          </li>
         </ul>
 
         {/*  */}
@@ -436,6 +481,51 @@ export default function StackLogo() {
                 </a>
               </TooltipTrigger>
               <TooltipContent>React Hook Form</TooltipContent>
+            </Tooltip>
+          </li>
+          <li className="flex">
+            <Tooltip>
+              <TooltipTrigger>
+                <a
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openInNewTab("https://nodejs.org/");
+                  }}
+                >
+                  <img
+                    width="40"
+                    height="40"
+                    src="https://assets.chanhdai.com/images/tech-stack-icons/nodejs.svg"
+                  />
+                </a>
+              </TooltipTrigger>
+              <TooltipContent>Node.js</TooltipContent>
+            </Tooltip>
+          </li>
+          <li className="flex">
+            <Tooltip>
+              <TooltipTrigger>
+                <a
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openInNewTab("https://nextjs.org/");
+                  }}
+                >
+                  <img
+                    width="40"
+                    height="40"
+                    className="hidden [html.light_&]:block"
+                    src="https://cdn.simpleicons.org/nextdotjs/black"
+                  />
+                  <img
+                    width="40"
+                    height="40"
+                    className="hidden [html.dark_&]:block"
+                    src="https://cdn.simpleicons.org/nextdotjs/white"
+                  />
+                </a>
+              </TooltipTrigger>
+              <TooltipContent>Next.js</TooltipContent>
             </Tooltip>
           </li>
         </ul>

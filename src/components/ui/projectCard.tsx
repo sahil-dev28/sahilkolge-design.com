@@ -23,8 +23,8 @@ export const ProjectCard = ({
   };
 
   return (
-    <div>
-      <Card className="bg-muted/10 hover:bg-muted/50 transition-colors">
+    <div className="h-full">
+      <Card className="h-full flex flex-col bg-muted/10 hover:bg-muted/50 transition-colors">
         <a
           href={redirectionLink}
           onClick={(e) => {
@@ -38,8 +38,8 @@ export const ProjectCard = ({
           />
         </a>
 
-        <CardContent>
-          <div className="flex flex-col gap-4">
+        <CardContent className="flex-1 flex flex-col">
+          <div className="flex flex-col gap-4 h-full">
             <div className="flex flex-col">
               <a
                 href={redirectionLink}
@@ -51,7 +51,7 @@ export const ProjectCard = ({
                 <h3 className="text-xl font-semibold">{name}</h3>
               </a>
             </div>
-            <div>
+            <div className="flex-1">
               <p className="text-muted-foreground">{description}</p>
             </div>
             <div>
@@ -66,7 +66,7 @@ export const ProjectCard = ({
                   ) => (
                     <div
                       key={index}
-                      className="group inline-flex justify-center items-center gap-0 rounded border border-dashed border-gray-600 px-2 py-1 text-sm font-medium text-foreground outline-none transition-all duration-300 ease-out hover:scale-[1.03] hover:gap-1.5 hover:border-border hover:bg-muted hover:shadow-sm focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:gap-1.5 hover:delay-0"
+                      className="group relative inline-flex justify-center items-center gap-0 rounded border border-dashed border-gray-600 px-2 py-1 text-sm font-medium text-foreground outline-none transition-all duration-300 ease-out hover:scale-[1.03] hover:gap-1.5 hover:border-border hover:bg-muted hover:shadow-sm focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:gap-1.5 hover:delay-0"
                     >
                       <a
                         key={index}
